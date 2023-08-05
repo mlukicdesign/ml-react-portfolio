@@ -1,0 +1,44 @@
+.heroContainer {
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+    text-align: left;
+}
+
+
+.heroContainer p {
+    color: white;
+}
+
+
+.name-heading {
+    font-size: 8em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 6rem;
+    color: var(--main-accent);
+    font-family: 'NeueMachina-Regular';
+    background: linear-gradient(222deg, #45AFFF 0%, #D7EEFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+
+.left-col {
+    display: flex;
+    align-items: flex-end
+}
+
+.intro-text {
+    color: white;
+}
+
+.darkbg {
+    background: radial-gradient(139.63% 48.72% at 104.57% 39.26%, rgba(69, 175, 255, 0.14) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(106.23% 43.69% at 3.10% 95.05%, rgba(69, 175, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), #08121B;
+}
