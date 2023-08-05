@@ -5,6 +5,12 @@
   --pd-bottom: padding-bottom: 10rem;
 }
 
+button {
+  border: 1px solid red;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
 @font-face {
   font-family: 'NeueMachina-Regular';
   src: url('components/styles/fonts/PPNeueMachina-PlainRegular.woff2') format('woff2'),
@@ -25,4 +31,5 @@ h2 {
 h3 {
   font-family: 'NeueMachina-Medium';
 }
+
 

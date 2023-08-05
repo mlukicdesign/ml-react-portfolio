@@ -2,10 +2,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
+import "./styles/capabilitiesstyles.css";
 
 function Capabilities() {
   return (
-    <Container >
+  <Container fluid className="darkbg">
+    <Container className="capContainer">
       <Row>
         <Col l>
           <h2>CAPABILTIES</h2>
@@ -19,6 +21,8 @@ function Capabilities() {
             sed vestibulum risus sagittis. Aliquam sed dui varius dictum eu
             vestibulum volutpat aenean platea.
           </p>
+          <button>CONTACT</button>
+          <button>CONTACT</button>
         </Col>
         <Col>
           <Accordion defaultActiveKey="0">
@@ -50,6 +54,7 @@ function Capabilities() {
         </Col>
       </Row>
     </Container>
+  </Container>
   );
 }
 

@@ -1,0 +1,13 @@
+.capContainer {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.capContainer h2 {
+    font-family: 'NeueMachina-Medium';
+    color:  var(--main-accent);
+}
+
+.capContainer p {
+    color:  white;
+}

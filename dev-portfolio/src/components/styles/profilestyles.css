@@ -1,10 +1,11 @@
 .container-light {
-    background-color: #fff;
-    border-radius: 25%;
+    background-color: white;
+    border-radius: 25px;
 }
 
 
 .containerStyle {
+    background-color: white;
     padding-top: 10rem;
     padding-bottom: 10rem;
     text-align: left;

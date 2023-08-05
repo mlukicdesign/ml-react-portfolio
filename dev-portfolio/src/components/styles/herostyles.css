@@ -4,14 +4,13 @@
     text-align: left;
 }
 
-
 .heroContainer p {
     color: white;
 }
 
 
 .name-heading {
-    font-size: 8em;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
     padding-bottom: 6rem;
