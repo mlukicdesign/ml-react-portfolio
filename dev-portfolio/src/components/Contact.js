@@ -6,7 +6,7 @@ import "./styles/contactstyles.css";
 
 function Contact() {
   return (
-    <Container fluid className="darkbg">
+    <Container fluid className="footerGradient">
       <Container className="contactContainer">
         <Row>
           <Col l>
@@ -44,14 +44,20 @@ function Contact() {
             </Form>
           </Col>
         </Row>
-    <Row>
+    <Row className="footer">
         <Col>
         <h1 className="name-heading">MACKENZIE LUKIC</h1>
         </Col>
         <Col>
             <Row>
-            <Col><h4>Github</h4></Col>
-            <Col><h4>Github</h4></Col>
+            <Col>
+            <h4>Github</h4>
+            <p>mlukicdesign</p>
+            </Col>
+            <Col>
+            <h4>Github</h4>
+            <p>mlukicdesign</p>
+            </Col>
             </Row>
         </Col>
     </Row>

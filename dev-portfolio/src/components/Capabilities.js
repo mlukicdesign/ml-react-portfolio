@@ -9,7 +9,7 @@ function Capabilities() {
   <Container fluid className="darkbg">
     <Container className="capContainer">
       <Row>
-        <Col l>
+        <Col>
           <h2>CAPABILTIES</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Enim scelerisque viverra
