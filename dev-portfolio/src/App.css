@@ -24,6 +24,12 @@ button {
 }
 
 
+h1 {
+  font-family: 'NeueMachina-Regular';
+  font-size: 6rem;
+}
+
+
 h2 {
   font-family: 'NeueMachina-Medium';
 }
@@ -31,5 +37,6 @@ h2 {
 h3 {
   font-family: 'NeueMachina-Medium';
 }
+
 
 

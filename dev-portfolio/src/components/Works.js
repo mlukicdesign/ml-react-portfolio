@@ -1,30 +1,67 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
+import './styles/projectstyles.css'
+import { motion } from 'framer-motion';
 
 function SelectedWorks() {
+    const containerVariants = {
+        hidden: { opacity: 0, x: -50 },
+        visible: { opacity: 1, x: 0, transition: { duration: 1 } },
+        initial: { height: '250px' },
+        hover: { height: '400px' , transition: { duration: 0.3 } },
+        };
+
   return (
-    <Container breakpoints='lg'>
+    <Container breakpoints='lg' className='Container'>
     <h1>Selected Works</h1>
         <Row>
-            <Container fluid="md">
-                <h3>Project Title</h3>
-            </Container>
+        <motion.div
+          variants={containerVariants}
+          initial='initial'
+          animate='visible'
+          whileHover='hover'
+          className='projectContainer'
+        >
+          <h3>Project Title</h3>
+          <h4>Project Description Here</h4>
+        </motion.div>
         </Row>
         <Row>
-            <Container fluid="md">
-                <h3>Project Title</h3>
-            </Container>
+        <motion.div
+          variants={containerVariants}
+          initial='initial'
+          animate='visible'
+          whileHover='hover'
+          className='projectContainer'
+        >
+          <h3>Project Title</h3>
+          <h4>Project Description Here</h4>
+        </motion.div>
         </Row>
         <Row>
-            <Container fluid="md">
-                <h3>Project Title</h3>
-            </Container>
+        <motion.div
+          variants={containerVariants}
+          initial='initial'
+          animate='visible'
+          whileHover='hover'
+          className='projectContainer'
+        >
+          <h3>Project Title</h3>
+          <h4>Project Description Here</h4>
+        </motion.div>
         </Row>
         <Row>
-            <Container fluid="md">
-                <h3>Project Title</h3>
-            </Container>
+        <motion.div
+          variants={containerVariants}
+          initial='hidden'
+          animate='visible'
+          whileHover='hover'
+          className='projectContainer'
+        >
+          <h3>Project Title</h3>
+          <h4>Project Description Here</h4>
+        </motion.div>
         </Row>
     </Container>
   );

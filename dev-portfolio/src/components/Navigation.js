@@ -17,7 +17,7 @@ function Navigation() {
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav>
               <Nav.Link href="#home">INFO</Nav.Link>
               <Nav.Link href="#link">WORK</Nav.Link>
               <Nav.Link href="#link">GET IN TOUCH</Nav.Link>

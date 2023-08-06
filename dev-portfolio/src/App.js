@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import ProfileSection from './components/ProfileSection';
 import Capabilities from './components/Capabilities';
 import SelectedWorks from './components/Works';
+import Contact from './components/Contact';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       < ProfileSection />
       < Capabilities />
       < SelectedWorks />
+      < Contact />
     </div>
   );
 }
