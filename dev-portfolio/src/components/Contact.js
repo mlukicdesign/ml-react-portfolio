@@ -9,7 +9,7 @@ function Contact() {
     <Container fluid className="footerGradient">
       <Container className="contactContainer">
         <Row>
-          <Col l>
+          <Col lg>
             <h2>LET'S WORK <span>TOGETHER</span></h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nunc suspendisse senectus
@@ -17,7 +17,7 @@ function Contact() {
               sit euismod.
             </p>
           </Col>
-          <Col l>
+          <Col>
             <Form>
               <Form.Group controlId="name">
                 <Form.Control type="text" placeholder="Enter your name" className="formField"/>
@@ -50,11 +50,11 @@ function Contact() {
         </Col>
         <Col>
             <Row>
-            <Col>
+            <Col className="footerCol">
             <h4>GITHUB</h4>
             <p>mlukicdesign</p>
             </Col>
-            <Col>
+            <Col className="footerCol">
             <h4>LINKEDIN</h4>
             <p>mlukicdesign</p>
             </Col>

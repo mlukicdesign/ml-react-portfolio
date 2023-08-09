@@ -6,10 +6,10 @@ import "./styles/capabilitiesstyles.css";
 
 function Capabilities() {
   return (
-  <Container fluid className="darkbg">
+  <Container fluid className="capbg">
     <Container className="capContainer">
       <Row>
-        <Col>
+        <Col lg>
           <h2>CAPABILTIES</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Enim scelerisque viverra
