@@ -10,7 +10,7 @@ function Contact() {
       <Container className="contactContainer">
         <Row>
           <Col l>
-            <h2>LET'S WORK TOGETHER</h2>
+            <h2>LET'S WORK <span>TOGETHER</span></h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nunc suspendisse senectus
               tincidunt interdum at neque tincidunt viverra. Tristique nec et
@@ -20,25 +20,25 @@ function Contact() {
           <Col l>
             <Form>
               <Form.Group controlId="name">
-                <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter your name" />
+                <Form.Control type="text" placeholder="Enter your name" className="formField"/>
               </Form.Group>
 
               <Form.Group controlId="email">
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder="Enter your email" />
+                {/* <Form.Label>Email</Form.Label> */}
+                <Form.Control type="email" placeholder="Enter your email" className="formField"/>
               </Form.Group>
 
               <Form.Group controlId="message">
-                <Form.Label>Message</Form.Label>
+                {/* <Form.Label>Message</Form.Label> */}
                 <Form.Control
                   as="textarea"
                   rows={4}
-                  placeholder="Enter your message"
+                  placeholder="Your challenge"
+                  className="formField"
                 />
               </Form.Group>
 
-              <Button variant="primary" type="submit">
+              <Button type="submit" className="formBtn">
                 Submit
               </Button>
             </Form>
@@ -51,11 +51,11 @@ function Contact() {
         <Col>
             <Row>
             <Col>
-            <h4>Github</h4>
+            <h4>GITHUB</h4>
             <p>mlukicdesign</p>
             </Col>
             <Col>
-            <h4>Github</h4>
+            <h4>LINKEDIN</h4>
             <p>mlukicdesign</p>
             </Col>
             </Row>

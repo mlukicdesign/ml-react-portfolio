@@ -1,3 +1,8 @@
+/* .heroFixed {
+    position: fixed;
+    z-index: -99;
+} */
+
 .heroContainer {
     padding-top: 20rem;
     padding-bottom: 5rem;

@@ -20,7 +20,7 @@ function HeroSection() {
   };
 
   return (
-  <Container fluid className='darkbg'>
+  <Container fluid className='darkbg heroFixed'>
     <Container fluid="md" className='heroContainer'>
       <Row>
         <Col>
@@ -47,7 +47,7 @@ function HeroSection() {
             initial='hidden'
             animate='visible'
             variants={textEntranceVariants}
-            >A digital and brand designer focused on functional, clean and considered creative solutions.
+            >A digital and brand designer focused on functional, <span>clean and considered creative solutions.</span>
             </motion.h3>
         </Col>
       </Row>

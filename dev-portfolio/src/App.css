@@ -12,16 +12,25 @@ p {
 
 .buttonLight {
   border: 1px solid white;
+  color: white;
   border-radius: 25px;
   padding: 10px 20px;
-  background-color: none;
+  background: none;
+}
+
+.buttonLight:hover {
+  border: 1px solid white;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background: var(--main-accent);
 }
 
 .buttonDark {
   border: 1px solid var(--main-dark);
   border-radius: 30px;
   padding: 10px 30px;
-  background-color: none;
+  background: none;
 }
 
 .buttonDark:hover {
@@ -57,10 +66,21 @@ h1 {
 
 h2 {
   font-family: 'NeueMachina-Medium';
+  font-size: 4rem;
 }
 
 h3 {
   font-family: 'NeueMachina-Medium';
+}
+
+h4 {
+  font-family: 'NeueMachina-Medium';
+  font-size: 2rem;
+  color: #45AFFF;
+}
+
+span {
+  color: var(--main-accent);
 }
 
 

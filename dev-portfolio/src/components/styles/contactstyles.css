@@ -9,5 +9,39 @@
 }
 
 .footer {
-    padding-top: 5rem;
+    padding-top: 8rem;
+}
+
+.formField {
+    border-radius: 0%;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.formField:focus {
+  background: none;
+  border-bottom: solid 1px var(--main-accent)
+}
+
+.formField::placeholder {
+    color: #c9c9c9;
+    font-size: 20px;
+}
+
+.formBtn {
+    border: 1px solid var(--main-accent);
+    border-radius: 25px;
+    padding: 10px 65px;
+    background: none;
+    color: white;
+}
+
+.formBtn:hover {
+    background: var(--main-accent);
+    color: white;
+    border: 1px solid var(--main-accent);
 }

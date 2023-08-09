@@ -20,7 +20,7 @@ const styles = {
 
 function ProfileSection() {
   return (
-  <Container fluid className='container-light'>
+  <Container fluid className='container-light profileSection'>
     <Container className='containerStyle'>
       <Row>
         <Col md={4}>
