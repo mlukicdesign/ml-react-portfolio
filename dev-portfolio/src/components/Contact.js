@@ -46,7 +46,7 @@ function Contact() {
         </Row>
     <Row className="footer">
         <Col>
-        <h1 className="name-heading">MACKENZIE LUKIC</h1>
+        <h1 className="name-footer">MACKENZIE LUKIC</h1>
         </Col>
         <Col>
             <Row>

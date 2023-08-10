@@ -56,3 +56,13 @@
     font-size: 2rem;
     color: #45AFFF;
 }
+
+.name-footer {
+    background: linear-gradient(222deg, #45AFFF 18.49%, #08121B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
