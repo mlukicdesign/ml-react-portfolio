@@ -15,8 +15,6 @@ const styles = {
 }
 
 
-
-
 function Navigation() {
     return (
       <Navbar expand="lg" className="navContainer" fixed='top'>
@@ -25,9 +23,10 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <Nav.Link href="#home" style={styles.navLinks}>INFO</Nav.Link>
-              <Nav.Link href="#link" style={styles.navLinks}>WORK</Nav.Link>
-              <button className='buttonLight'>GET IN TOUCH</button>
+              <Nav.Link href="#profile" style={styles.navLinks}>ABOUT</Nav.Link>
+              <Nav.Link href="#capabilities" style={styles.navLinks}>PROCESS</Nav.Link>
+              <Nav.Link href="#works" style={styles.navLinks}>WORK</Nav.Link>
+              <button className='buttonLight' href="contact">GET IN TOUCH</button>
             </Nav>
           </Navbar.Collapse>
         </Container>

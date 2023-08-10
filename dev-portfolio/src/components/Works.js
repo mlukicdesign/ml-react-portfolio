@@ -13,7 +13,7 @@ function SelectedWorks() {
         };
 
   return (
-    <Container breakpoints='lg' className='Container'>
+    <Container breakpoints='lg' className='Container' id='works'>
     <h1>Selected Works</h1>
         <Row>
         <motion.div

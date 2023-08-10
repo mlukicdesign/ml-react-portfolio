@@ -4,9 +4,11 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 import "./styles/capabilitiesstyles.css";
 
+
+
 function Capabilities() {
   return (
-  <Container fluid className="capbg">
+  <Container fluid className="capbg" id="capabilities">
     <Container className="capContainer">
       <Row>
         <Col lg>
@@ -25,10 +27,10 @@ function Capabilities() {
           <button className="buttonLight">CONTACT</button>
         </Col>
         <Col>
-          <Accordion defaultActiveKey="0">
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>Accordion Item #1</Accordion.Header>
-              <Accordion.Body>
+          <Accordion defaultActiveKey="0" flush>
+            <Accordion.Item eventKey="0" >
+              <Accordion.Header >Accordion Item #1</Accordion.Header>
+              <Accordion.Body className="accordionHeader">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

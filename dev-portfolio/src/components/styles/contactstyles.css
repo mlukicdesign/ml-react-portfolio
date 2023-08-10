@@ -46,6 +46,13 @@
     border: 1px solid var(--main-accent);
 }
 
-.footerCol {
-    align-items: right;
+
+.rightAlign {
+    text-align: right;
+}
+
+.footerHeading {
+    font-family: 'NeueMachina-Medium';
+    font-size: 2rem;
+    color: #45AFFF;
 }

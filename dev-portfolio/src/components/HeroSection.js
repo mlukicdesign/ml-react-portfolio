@@ -3,7 +3,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './styles/herostyles.css';
 import { motion } from "framer-motion"
-import { animate, stagger } from 'framer-motion';
 
 
 
