@@ -24,7 +24,7 @@ function SelectedWorks() {
           className='projectContainer'
         >
           <h3>Project Title</h3>
-          <h4>Project Description Here</h4>
+          <a href=' '>Project Description Here</a>
         </motion.div>
         </Row>
         <Row>

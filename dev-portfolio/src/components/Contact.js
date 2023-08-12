@@ -3,8 +3,32 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Form, Button } from "react-bootstrap";
 import "./styles/contactstyles.css";
+import { useState } from "react";
+
+
+
+
+
 
 function Contact() {
+  const [validated, setValidated] = useState(false);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+
+  const handleSubmit = (e) => {
+    const form = e.currentTarget;
+    if (form.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    } else {
+      setValidated(true);
+      setShowSuccessMessage(true);
+    }
+    
+    e.preventDefault();
+  };
+
+
+
   return (
     <Container fluid className="footerGradient" id="contact">
       <Container className="contactContainer">
@@ -18,19 +42,27 @@ function Contact() {
             </p>
           </Col>
           <Col>
-            <Form>
+              <div>
+          {showSuccessMessage ? (
+            <div className="success-message">
+              <p>Thank you for getting in contact. I'll get back to you shortly!</p>
+            </div>
+          ) : null}
+        </div>
+            <Form noValidate validated={validated} onSubmit={handleSubmit}>
               <Form.Group controlId="name">
-                <Form.Control type="text" placeholder="Enter your name" className="formField"/>
+                <Form.Control required type="text" placeholder="Enter your name" className="formField"/>
               </Form.Group>
 
               <Form.Group controlId="email">
                 {/* <Form.Label>Email</Form.Label> */}
-                <Form.Control type="email" placeholder="Enter your email" className="formField"/>
+                <Form.Control required type="email" placeholder="Enter your email" className="formField"/>
               </Form.Group>
 
               <Form.Group controlId="message">
                 {/* <Form.Label>Message</Form.Label> */}
                 <Form.Control
+                  required
                   as="textarea"
                   rows={4}
                   placeholder="Your challenge"
