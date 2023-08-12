@@ -24,7 +24,7 @@ function SelectedWorks() {
           className='projectContainer'
         >
           <h3>Project Title</h3>
-          <a href=' '>Project Description Here</a>
+          <a href='project1'>Project Description Here</a>
         </motion.div>
         </Row>
         <Row>
@@ -36,7 +36,7 @@ function SelectedWorks() {
           className='projectContainer'
         >
           <h3>Project Title</h3>
-          <h4>Project Description Here</h4>
+          <a href='project1'>Project Description Here</a>
         </motion.div>
         </Row>
         <Row>
@@ -48,7 +48,7 @@ function SelectedWorks() {
           className='projectContainer'
         >
           <h3>Project Title</h3>
-          <h4>Project Description Here</h4>
+          <a href='project1'>Project Description Here</a>
         </motion.div>
         </Row>
         <Row>
@@ -60,7 +60,7 @@ function SelectedWorks() {
           className='projectContainer'
         >
           <h3>Project Title</h3>
-          <h4>Project Description Here</h4>
+          <a href='project1'>Project Description Here</a>
         </motion.div>
         </Row>
     </Container>

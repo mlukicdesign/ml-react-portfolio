@@ -19,7 +19,7 @@ function Navigation() {
     return (
       <Navbar expand="lg" className="navContainer" fixed='top'>
         <Container className='navBar'>
-          <Navbar.Brand href="#home" style={styles.navLinks}>MACKENZIE LUKIC</Navbar.Brand>
+          <Navbar.Brand href="/" style={styles.navLinks}>MACKENZIE LUKIC</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
