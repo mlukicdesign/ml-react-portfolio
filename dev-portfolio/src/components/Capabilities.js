@@ -24,7 +24,6 @@ function Capabilities() {
             vestibulum volutpat aenean platea.
           </p>
           <button className="buttonLight">CONTACT</button>
-          <button className="buttonLight">CONTACT</button>
         </Col>
         <Col>
           <Accordion defaultActiveKey="0" flush>

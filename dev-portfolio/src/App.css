@@ -11,7 +11,7 @@ p {
 }
 
 a {
-  color: white !important;
+  color: rgb(194, 194, 194) !important;
   text-decoration: none !important;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 }
 
 .buttonLight:hover {
-  border: 1px solid white;
+  border: 1px solid var(--main-accent);
   color: white;
   border-radius: 25px;
   padding: 10px 20px;
@@ -39,6 +39,7 @@ a:hover {
 }
 
 .buttonDark {
+  margin-top: 40px;
   border: 1px solid var(--main-dark);
   border-radius: 30px;
   padding: 10px 30px;

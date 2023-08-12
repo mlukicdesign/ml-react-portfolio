@@ -33,10 +33,9 @@ function HeroSection() {
     </motion.h1>
             <Row>
               <Col>
-              <p>VIEW WORKS</p>
+              <a href="#profile">EXPLORE</a>
               </Col>
               <Col>
-              <p>VIEW WORKS</p>
               </Col>
             </Row>
         </Col>

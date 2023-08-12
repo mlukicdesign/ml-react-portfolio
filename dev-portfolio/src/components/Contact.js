@@ -5,10 +5,7 @@ import { Form, Button } from "react-bootstrap";
 import "./styles/contactstyles.css";
 import { useState } from "react";
 
-
-
-
-
+// Contact form logic
 
 function Contact() {
   const [validated, setValidated] = useState(false);
@@ -23,18 +20,18 @@ function Contact() {
       setValidated(true);
       setShowSuccessMessage(true);
     }
-    
+
     e.preventDefault();
   };
-
-
 
   return (
     <Container fluid className="footerGradient" id="contact">
       <Container className="contactContainer">
         <Row>
           <Col lg>
-            <h2>LET'S WORK <span>TOGETHER</span></h2>
+            <h2>
+              LET'S WORK <span>TOGETHER</span>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur. Nunc suspendisse senectus
               tincidunt interdum at neque tincidunt viverra. Tristique nec et
@@ -42,21 +39,34 @@ function Contact() {
             </p>
           </Col>
           <Col>
-              <div>
-          {showSuccessMessage ? (
-            <div className="success-message">
-              <p>Thank you for getting in contact. I'll get back to you shortly!</p>
+            <div>
+              {showSuccessMessage ? (
+                <div className="success-message">
+                  <p>
+                    Thank you for getting in contact. I'll get back to you
+                    shortly!
+                  </p>
+                </div>
+              ) : null}
             </div>
-          ) : null}
-        </div>
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
               <Form.Group controlId="name">
-                <Form.Control required type="text" placeholder="Enter your name" className="formField"/>
+                <Form.Control
+                  required
+                  type="text"
+                  placeholder="Enter your name"
+                  className="formField"
+                />
               </Form.Group>
 
               <Form.Group controlId="email">
                 {/* <Form.Label>Email</Form.Label> */}
-                <Form.Control required type="email" placeholder="Enter your email" className="formField"/>
+                <Form.Control
+                  required
+                  type="email"
+                  placeholder="Enter your email"
+                  className="formField"
+                />
               </Form.Group>
 
               <Form.Group controlId="message">
@@ -76,26 +86,26 @@ function Contact() {
             </Form>
           </Col>
         </Row>
-    <Row className="footer">
-        <Col>
-        <h1 className="name-footer">MACKENZIE LUKIC</h1>
-        </Col>
-        <Col>
+        <Row className="footer">
+          <Col>
+            <h1 className="name-footer">MACKENZIE LUKIC</h1>
+          </Col>
+          <Col>
             <Row>
-            <Col className="rightAlign">
-            <h4 className="footerHeading">GITHUB</h4>
-            <p>mlukicdesign</p>
-            </Col>
-            <Col className="rightAlign">
-            <h4 className="footerHeading">LINKEDIN</h4>
-            <p>mlukicdesign</p>
-            </Col>
+              <Col className="rightAlign">
+                <h4 className="footerHeading">GITHUB</h4>
+                <p>mlukicdesign</p>
+              </Col>
+              <Col className="rightAlign">
+                <h4 className="footerHeading">LINKEDIN</h4>
+                <p>mlukicdesign</p>
+              </Col>
             </Row>
-        </Col>
-    </Row>
+          </Col>
+        </Row>
         <Row>
-            <Col>@2023 All Rights Reserved</Col>
-            <Col className="rightAlign">Weather widget</Col>
+          <Col>@2023 All Rights Reserved</Col>
+          <Col className="rightAlign">Weather widget</Col>
         </Row>
       </Container>
     </Container>

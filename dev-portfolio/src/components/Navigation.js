@@ -26,7 +26,7 @@ function Navigation() {
               <Nav.Link href="/#profile" style={styles.navLinks}>ABOUT</Nav.Link>
               <Nav.Link href="/#capabilities" style={styles.navLinks}>PROCESS</Nav.Link>
               <Nav.Link href="/#works" style={styles.navLinks}>WORK</Nav.Link>
-              <button className='buttonLight' href="#contact">GET IN TOUCH</button>
+              <button className='buttonLight' href="/#contact">GET IN TOUCH</button>
             </Nav>
           </Navbar.Collapse>
         </Container>
