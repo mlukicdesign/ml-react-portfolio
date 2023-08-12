@@ -6,6 +6,9 @@ import Capabilities from './Capabilities';
 import SelectedWorks from './Works';
 import Contact from './Contact';
 
+
+// Consolidated components into home page to allow correct routing
+
 function Home() {
     return (
       <div className="App">
@@ -14,7 +17,6 @@ function Home() {
         < ProfileSection />
         < Capabilities />
         < SelectedWorks />
-        < Contact />
       </div>
     );
   }

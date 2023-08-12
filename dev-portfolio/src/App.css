@@ -10,6 +10,15 @@ p {
   font-family: 'Arbeit-Regular';
 }
 
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--main-accent) !important;
+  text-decoration: none !important;
+}
 
 
 
@@ -60,6 +69,8 @@ p {
   font-family: 'Arbeit-Regular';
   src: url('components/styles/fonts/Arbeit-Regular.otf') format('otf');
 }
+
+
 
 
 h1 {

@@ -18,36 +18,24 @@ function SelectedWorks() {
         <Row>
         <motion.div
           variants={containerVariants}
-          initial='initial'
+          initial='hidden'
           animate='visible'
           whileHover='hover'
           className='projectContainer'
         >
-          <h3>Project Title</h3>
-          <a href='project1'>Project Description Here</a>
+          <h3>Green Trips</h3>
+          <a href='project1'>View Project</a>
         </motion.div>
         </Row>
         <Row>
         <motion.div
           variants={containerVariants}
-          initial='initial'
+          initial='hidden'
           animate='visible'
           whileHover='hover'
           className='projectContainer'
         >
-          <h3>Project Title</h3>
-          <a href='project1'>Project Description Here</a>
-        </motion.div>
-        </Row>
-        <Row>
-        <motion.div
-          variants={containerVariants}
-          initial='initial'
-          animate='visible'
-          whileHover='hover'
-          className='projectContainer'
-        >
-          <h3>Project Title</h3>
+          <h3>Social Network API</h3>
           <a href='project1'>Project Description Here</a>
         </motion.div>
         </Row>
@@ -59,8 +47,20 @@ function SelectedWorks() {
           whileHover='hover'
           className='projectContainer'
         >
-          <h3>Project Title</h3>
-          <a href='project1'>Project Description Here</a>
+          <h3>Ravenous React</h3>
+          <a href='project1'>View Project</a>
+        </motion.div>
+        </Row>
+        <Row>
+        <motion.div
+          variants={containerVariants}
+          initial='hidden'
+          animate='visible'
+          whileHover='hover'
+          className='projectContainer'
+        >
+          <h3>MVC Tech Blog</h3>
+          <a href='project1'>View Project</a>
         </motion.div>
         </Row>
     </Container>

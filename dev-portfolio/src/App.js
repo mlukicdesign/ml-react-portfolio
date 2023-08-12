@@ -10,7 +10,7 @@ import Project1 from './components/Project1';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 
-
+// Navigation & Contact components sit outside router to allow for correct routing
 
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
       <Route path="/" element={<Home />}></Route>
       <Route path='/project1' element={<Project1 />}></Route>
       </Routes>
-      <Contact />
     </Router>
+      <Contact />
     </div>
   );
 }

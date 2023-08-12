@@ -22,3 +22,8 @@
     padding: 3rem;
     justify-content: center;
 }
+
+    .projectImg {
+    height: 300px;
+    object-fit: cover;
+    }
