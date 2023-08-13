@@ -33,9 +33,12 @@ function Contact() {
               LET'S WORK <span>TOGETHER</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Nunc suspendisse senectus
-              tincidunt interdum at neque tincidunt viverra. Tristique nec et
-              sit euismod.
+              I'm all about teaming up to tackle challenges and spark new ideas.
+              Collaboration fuels innovation, and I'm ready to dive into
+              projects that benefit from diverse expertise. If you're looking to
+              bring your concept to life or push the boundaries of what's
+              possible, let's connect our skills and make it happen. Your goals,
+              my know-how – a winning combination."
             </p>
           </Col>
           <Col>
@@ -94,11 +97,18 @@ function Contact() {
             <Row>
               <Col className="rightAlign">
                 <h4 className="footerHeading">GITHUB</h4>
-                <p>mlukicdesign</p>
+                <a href="https://github.com/mlukicdesign" target="blank">
+                  EXPLORE
+                </a>
               </Col>
               <Col className="rightAlign">
                 <h4 className="footerHeading">LINKEDIN</h4>
-                <p>mlukicdesign</p>
+                <a
+                  href="https://linkedin.com/in/mackenzie-lukic-380904147"
+                  target="blank"
+                >
+                  CONNECT
+                </a>
               </Col>
             </Row>
           </Col>

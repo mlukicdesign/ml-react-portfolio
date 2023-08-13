@@ -4,7 +4,7 @@ import HeroSection from './HeroSection';
 import ProfileSection from './ProfileSection';
 import Capabilities from './Capabilities';
 import SelectedWorks from './Works';
-import Contact from './Contact';
+
 
 
 // Consolidated components into home page to allow correct routing
@@ -12,7 +12,6 @@ import Contact from './Contact';
 function Home() {
     return (
       <div className="App">
-        < Navigation />
         < HeroSection />
         < ProfileSection />
         < Capabilities />

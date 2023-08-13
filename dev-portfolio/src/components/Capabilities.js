@@ -11,47 +11,26 @@ function Capabilities() {
   <Container fluid className="capbg" id="capabilities">
     <Container className="capContainer">
       <Row>
-        <Col lg>
-          <h2>CAPABILTIES</h2>
+        <h2>CAPABILTIES</h2>
+      </Row>
+      <Row>
+        <Col className="frame">
+          <h3>WEB <br/>DESIGN</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Enim scelerisque viverra
-            scelerisque scelerisque egestas rhoncus neque. Lorem suspendisse nec
-            tincidunt donec dignissim. Amet feugiat vulputate habitant dui purus
-            sed nunc in tempor. Integer mauris sed cursus ut eu leo nunc
-            fermentum. Augue eget felis vitae bibendum amet. Nibh facilisis
-            nulla sapien quam molestie. Tortor tortor nam est mi eget dolor. Ut
-            sed vestibulum risus sagittis. Aliquam sed dui varius dictum eu
-            vestibulum volutpat aenean platea.
+          Web design is my creative playground where I bring ideas to life with pixels and code. It's about translating concepts into captivating visuals that resonate with users. My designs prioritize intuitive navigation and engaging aesthetics, ensuring a seamless journey for every visitor. Through careful attention to detail, I aim to create web experiences that leave a lasting impression.
           </p>
-          <button className="buttonLight">CONTACT</button>
         </Col>
-        <Col>
-          <Accordion defaultActiveKey="0" flush>
-            <Accordion.Item eventKey="0" >
-              <Accordion.Header >Accordion Item #1</Accordion.Header>
-              <Accordion.Body className="accordionHeader">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Accordion Item #2</Accordion.Header>
-              <Accordion.Body>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
+        <Col className="frame">
+          <h3>FRONT-END <br/>DEVELOPMENT</h3>
+          <p>
+          Front-end development is where I add functionality to the beauty of design. I enjoy crafting interactive elements that users can touch, click, and experience firsthand. With a focus on clean code and optimal user experience, I strive to make every website I work on responsive and user-friendly across devices. Transforming design into a dynamic reality is what truly excites me.
+          </p>
+        </Col>
+        <Col className="frame">
+          <h3>BACK-END <br/>DEVELOPMENT</h3>
+          <p>
+          Behind the scenes, in the realm of back-end development, I ensure that everything runs smoothly. From databases to server logic, I enjoy constructing the architecture that supports seamless functionality. My goal is to create robust and efficient systems that make the user experience seamless. I take pride in optimizing the technical foundation that powers websites and applications.
+          </p>
         </Col>
       </Row>
     </Container>

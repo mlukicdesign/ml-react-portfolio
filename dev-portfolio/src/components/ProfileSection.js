@@ -38,8 +38,8 @@ function ProfileSection() {
       </Col>
         <Col>
           <h2>CONSIDERED DESIGN, STRIKING BALANCE BETWEEN FUNCTION & FORM</h2>
-          <p>Lorem ipsum dolor sit amet consectetur. Enim scelerisque viverra scelerisque scelerisque egestas rhoncus neque. Lorem suspendisse nec tincidunt donec dignissim. 
-            Amet feugiat vulputate habitant dui purus sed nunc in tempor. Integer mauris sed cursus ut eu leo nunc fermentum. Augue eget felis vitae bibendum amet. Nibh facilisis nulla sapien quam molestie. Tortor tortor nam est mi eget dolor. Ut sed vestibulum risus sagittis. Aliquam sed dui varius dictum eu vestibulum volutpat aenean platea.</p>
+          <p>
+In my design approach, I enjoy blending the realms of front-end and back-end development. It's all about crafting solutions that smoothly unite functionality and aesthetics, creating user experiences that feel just right. Throughout my projects, you'll find this balance between purpose and visual appeal, highlighting the intentional fusion of form and function that defines my work.</p>
           <a href="/" className='buttonDark'>CAPABILTIES</a>
         </Col>
         </Row>

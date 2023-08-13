@@ -8,10 +8,11 @@
 p {
   font-size: 20px;
   font-family: 'Arbeit-Regular';
+  line-height: 2rem;
 }
 
 a {
-  color: rgb(194, 194, 194) !important;
+  color: whitesmoke !important;
   text-decoration: none !important;
 }
 
@@ -39,7 +40,6 @@ a:hover {
 }
 
 .buttonDark {
-  margin-top: 40px;
   border: 1px solid var(--main-dark);
   border-radius: 30px;
   padding: 10px 30px;
