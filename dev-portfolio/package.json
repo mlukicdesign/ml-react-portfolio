@@ -2,7 +2,11 @@
   "name": "dev-portfolio",
   "version": "0.1.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "homepage": "https://mlukicdesign.github.io/ml-react-portfolio/#",
+=======
+  "homepage": "https://mlukicdesign.github.io/ml-react-portfolio",
+>>>>>>> parent of f475c5e (adjusted homepage)
 =======
   "homepage": "https://mlukicdesign.github.io/ml-react-portfolio",
 >>>>>>> parent of f475c5e (adjusted homepage)
