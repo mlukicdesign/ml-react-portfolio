@@ -5,7 +5,7 @@
  ## Deployed Page
 https://mlukicdesign.github.io/ml-react-portfolio/
 
-![project mockup](image.png)
+![project mockup](react-portfolio.jpg)
 
 
  ### Why React?
