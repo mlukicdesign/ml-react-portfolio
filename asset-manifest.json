@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ml-react-portfolio/static/css/main.c447bf68.css",
-    "main.js": "/ml-react-portfolio/static/js/main.be24037b.js",
+    "main.js": "/ml-react-portfolio/static/js/main.5faa22a9.js",
     "static/js/787.eef0f175.chunk.js": "/ml-react-portfolio/static/js/787.eef0f175.chunk.js",
     "static/media/react-bg.jpg": "/ml-react-portfolio/static/media/react-bg.74081f3cdd4915517655.jpg",
     "static/media/techblog-bg.jpg": "/ml-react-portfolio/static/media/techblog-bg.bf9c27cc9342b089838c.jpg",
@@ -15,11 +15,11 @@
     "static/media/Arbeit-Regular.otf": "/ml-react-portfolio/static/media/Arbeit-Regular.fb56263f5d65eec69236.otf",
     "index.html": "/ml-react-portfolio/index.html",
     "main.c447bf68.css.map": "/ml-react-portfolio/static/css/main.c447bf68.css.map",
-    "main.be24037b.js.map": "/ml-react-portfolio/static/js/main.be24037b.js.map",
+    "main.5faa22a9.js.map": "/ml-react-portfolio/static/js/main.5faa22a9.js.map",
     "787.eef0f175.chunk.js.map": "/ml-react-portfolio/static/js/787.eef0f175.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c447bf68.css",
-    "static/js/main.be24037b.js"
+    "static/js/main.5faa22a9.js"
   ]
 }
