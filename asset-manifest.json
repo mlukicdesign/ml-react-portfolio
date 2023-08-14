@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ml-react-portfolio/static/css/main.136a9ec4.css",
+    "main.js": "/ml-react-portfolio/static/js/main.f0810f2a.js",
+    "static/js/787.eef0f175.chunk.js": "/ml-react-portfolio/static/js/787.eef0f175.chunk.js",
+    "static/media/react-bg.jpg": "/ml-react-portfolio/static/media/react-bg.74081f3cdd4915517655.jpg",
+    "static/media/techblog-bg.jpg": "/ml-react-portfolio/static/media/techblog-bg.bf9c27cc9342b089838c.jpg",
+    "static/media/greentrips-img.jpg": "/ml-react-portfolio/static/media/greentrips-img.d09d3db2b452b61c9b0f.jpg",
+    "static/media/greentrips-bg.jpg": "/ml-react-portfolio/static/media/greentrips-bg.2b2a4cbabedaaf623d36.jpg",
+    "static/media/profilepic.png": "/ml-react-portfolio/static/media/profilepic.48b2ab8d4f7a04155d89.png",
+    "static/media/socialapi-bg.jpg": "/ml-react-portfolio/static/media/socialapi-bg.122bc67e6d9a306236de.jpg",
+    "static/media/PPNeueMachina-PlainMedium.woff": "/ml-react-portfolio/static/media/PPNeueMachina-PlainMedium.45162d9999266d8b7a16.woff",
+    "static/media/PPNeueMachina-PlainRegular.woff2": "/ml-react-portfolio/static/media/PPNeueMachina-PlainRegular.e3f13ef10bcbe1cb5da0.woff2",
+    "static/media/PPNeueMachina-PlainMedium.woff2": "/ml-react-portfolio/static/media/PPNeueMachina-PlainMedium.a6543b68736df6debca7.woff2",
+    "static/media/Arbeit-Regular.otf": "/ml-react-portfolio/static/media/Arbeit-Regular.fb56263f5d65eec69236.otf",
+    "index.html": "/ml-react-portfolio/index.html",
+    "main.136a9ec4.css.map": "/ml-react-portfolio/static/css/main.136a9ec4.css.map",
+    "main.f0810f2a.js.map": "/ml-react-portfolio/static/js/main.f0810f2a.js.map",
+    "787.eef0f175.chunk.js.map": "/ml-react-portfolio/static/js/787.eef0f175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.136a9ec4.css",
+    "static/js/main.f0810f2a.js"
+  ]
+}
